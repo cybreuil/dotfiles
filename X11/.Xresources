@@ -1,0 +1,8 @@
+! Xresources for urxvt, st, etc.
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+URxvt*font: xft:monospace:size=10
+URxvt*scrollBar: false

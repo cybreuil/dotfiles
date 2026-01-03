@@ -1,0 +1,5 @@
+! Example: Swap Caps Lock and Escape
+remove Lock = Caps_Lock
+keysym Caps_Lock = Escape
+
+! You can add more key remappings below as needed.

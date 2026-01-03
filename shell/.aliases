@@ -1,0 +1,27 @@
+# Common aliases for shell usage
+
+# List directory contents
+alias ll='ls -alF'      # Long format, show hidden files, classify
+alias la='ls -A'        # List all except . and ..
+alias l='ls -CF'        # Column format, classify
+
+# Grep with color
+alias grep='grep --color=auto'
+
+# System update (Void Linux)
+alias update='sudo xbps-install -Su'
+
+# Rebuild and install DWM from dotfiles
+alias rebuilddwm='cd $DOTFILES/dwm && sudo make clean install'
+
+# Rebuild and install st from dotfiles
+alias rebuildst='cd $DOTFILES/st && sudo make clean install'
+
+# Rebuild and install dmenu from dotfiles
+alias rebuilddmenu='cd $DOTFILES/dmenu && sudo make clean install'
+
+# Quick edit dotfiles
+alias editdotfiles='$EDITOR $DOTFILES'
+
+# Reload shell configuration
+alias reload='source ~/.zshrc || source ~/.bashrc'
