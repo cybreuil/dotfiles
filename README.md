@@ -1,4 +1,4 @@
 # dotfiles
 dotfiles for linux install
 
-bashrc using /W for desktop, i'm using /w for thinkpads
+bashrc using \w for desktop, i'm using \W for thinkpads
